@@ -861,11 +861,21 @@ img {
   -ms-border-radius: 0.5rem;
   -o-border-radius: 0.5rem;
   z-index: var(--z-tooltip);
-  transition: bottom 0.6s, transform 0.4s;
-  -webkit-transition: bottom 0.6s, transform 0.4s;
-  -moz-transition: bottom 0.6s, transform 0.4s;
-  -ms-transition: bottom 0.6s, transform 0.4s;
-  -o-transition: bottom 0.6s, transform 0.4s;
+  transition:
+    bottom 0.6s,
+    transform 0.4s;
+  -webkit-transition:
+    bottom 0.6s,
+    transform 0.4s;
+  -moz-transition:
+    bottom 0.6s,
+    transform 0.4s;
+  -ms-transition:
+    bottom 0.6s,
+    transform 0.4s;
+  -o-transition:
+    bottom 0.6s,
+    transform 0.4s;
 }
 
 .scrollup:hover {
